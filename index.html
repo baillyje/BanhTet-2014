@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Très bonne année 2014</title>
+	
+	<link href="./style/gameCanvas.css" rel="stylesheet" type="text/css">
+	
+	<script src="./Asset/js/core.js"></script>
+	<script src="./Asset/js/more.js"></script>
+	
+	<script>
+		Tcha = {};
+		
+		window.addEvent('domready', function(){	
+			Tcha.App.start();
+		});
+	</script>
+	
+	<script src="./script/App.js"></script>
+	<script src="./script/Grid.js"></script>
+	<script src="./script/Tile.js"></script>
+</head>
+<body>
+	<div id="gameCanvas">
+	</div>
+	<!--
+	<div id="control">
+		... contrôle à indiquer ...
+	</div>
+	
+	<div id="credit">
+		Réalisé par Jean-Pierre Bailly</br>
+		"Boulder Dash" est un jeu conçu par First Star Software, Inc.
+	</div>
+	-->
+	<!--<audio id="sMusic" src="sound/RushCoilCarolOfTheBells.mp3" preload="auto"></audio>-->
+	<audio id="sBoom" src="sound/seboom.wav" preload="auto"></audio>
+	<audio id="sMechantBoom" src="sound/semechantboom.wav" preload="auto"></audio>
+	<audio id="sShot" src="sound/seshot.wav" preload="auto"></audio>
+	
+</body>
+</html>
